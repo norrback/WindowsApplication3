@@ -73,7 +73,6 @@ Partial Class Form1
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Chart2 = New System.Windows.Forms.DataVisualization.Charting.Chart()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Chart3 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
@@ -423,15 +422,6 @@ Partial Class Form1
         Me.Chart2.TabIndex = 43
         Me.Chart2.Text = "Chart2"
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(855, 217)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(83, 36)
-        Me.Button3.TabIndex = 44
-        Me.Button3.Text = "Save flow value"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Chart3
         '
         ChartArea2.Name = "ChartArea1"
@@ -572,7 +562,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label29)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label27)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Chart2)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
@@ -658,7 +647,6 @@ Partial Class Form1
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Chart2 As DataVisualization.Charting.Chart
-    Friend WithEvents Button3 As Button
     Friend WithEvents Chart3 As DataVisualization.Charting.Chart
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
